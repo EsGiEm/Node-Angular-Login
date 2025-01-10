@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+   
+}
+
+.maintenancePage {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+
+.maintenancePage img {
+    max-width: max-content;
+    height: auto;
+    margin: 30px;
+}
+
+.MaintenanceText {
+    
+    position: absolute;
+    top: 50%;
+    margin: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(38, 18, 135, 0.437); /* Fondo semitransparente */
+    padding: 10px;
+    border-radius: 5px;
+}
+
